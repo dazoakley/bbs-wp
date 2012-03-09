@@ -1,0 +1,302 @@
+/* @override http://bixsolutions.net/wp-content/themes/bbs-wp/style.css */
+
+/*   
+
+Theme Name: Building Bioinformatics Solutions
+Theme URI: http://www.bixsolutions.net/
+Description: Theme built for the site about the book.
+Author: Darren Oakley
+Author URI: http://hocuspokus.net
+Version: 1.0
+
+*/
+
+/* -- Page Layout -- */
+
+body {
+	background: #fff url(images/logo.jpg) no-repeat left top;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	font: 12px/1.4 Verdana, sans-serif;
+}
+
+#container {
+	width: 85%;
+	margin: 0 auto;
+	padding: 11px 20px 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0px 0px 3px #999;
+	-webkit-box-shadow: 0px 0px 5px #999;
+	-moz-box-shadow: 0px 0px 3px #999;
+}
+
+#content {
+	min-height: 450px;
+}
+
+#sidebar {
+	float: right;
+	width: 23%;
+	font-variant: normal;
+}
+
+#main {
+	width: 75%;
+}
+
+#footer {
+	clear: both;
+	width: 85%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 90%;
+	padding: 20px;
+}
+
+#footer .left {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+#footer .right {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+#wpstats `{
+	display: none;
+}
+
+/* -- Site Header -- */
+
+#site-title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#site-title {
+	background: transparent url(images/title.png) no-repeat 85% top;
+	height: 60px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-indent: -9999px;
+}
+
+/* -- Navigation -- */
+
+div#site-navigation {
+	border-bottom: 1px solid #cbd1d8;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	margin-top: 5px;
+}
+
+ul#nav-list {
+	padding: 0;
+	margin: 0;
+	font: 12px Verdana, sans-serif;
+}
+
+ul#nav-list li {
+	display: inline;
+}
+
+ul#nav-list li a {
+	text-decoration: none;
+	padding-right: 8px;
+	padding-left: 6px;
+	color: #8c0051;
+	font-weight: bold;
+}
+
+ul#nav-list li.page_item a {
+	border-right: 1px solid #999;
+}
+
+/* -- Sidebar -- */
+
+#sidebar ul {
+	padding-left: 20px;
+	list-style-type: disc;
+}
+
+/* -- Headings -- */
+
+h2, h3, h4, h5, h6 {
+	font-family: Georgia, Times, Serif;
+}
+
+/* -- Links -- */
+
+a {
+	text-decoration: none;
+	color: #2e8b29;
+}
+
+a:hover {
+	color: #8c0051;
+}
+
+h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #333;
+}
+
+.feedlink {
+	padding: 4px 0 4px 20px;
+	background: url('images/feed.png') left center no-repeat;
+}
+
+.link {
+	padding: 2px 0 2px 16px;
+	background: url('images/bullet_go.png') left center no-repeat;
+}
+
+h2 .editlink a {
+	font: 11px Verdana, sans-serif;
+	color: #2e8b29;
+	background: url('images/page_edit.png') no-repeat;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-left: 15px;
+}
+
+h2 .editlink a:hover {
+	color: #8c0051;
+}
+
+/* -- Post Meta -- */
+
+.entry-meta {
+	font-size: 1em;
+	font-family: Georgia, Times, Serif;
+	color: #999;
+	display: block;
+}
+
+.entry-meta div {
+	display: inline;
+}
+
+.meta-start {
+	padding: 2px 0 2px 20px ;
+	background: url('images/time.png') left top no-repeat;
+}
+
+.entry-date abbr {
+	border: 0;
+	color: #2e8b29;
+}
+
+.entry-author {
+	display: none;
+}
+
+.entry-author address {
+	display: inline;
+	font-style: normal;
+}
+
+.entry-category {
+	text-transform: lowercase;
+	margin-right: 10px;
+}
+
+.commentslink {
+	padding: 2px 0 2px 20px;
+	background: url('images/comment.png') left center no-repeat;
+	margin-right: 10px;
+}
+
+.entry-tags {
+	display: block;
+	margin: 2px 0;
+	padding: 0 0 0 20px;
+	background: url('images/tag_green.png') left center no-repeat;
+}
+
+.entry-tags a {
+	text-transform: lowercase;
+}
+
+/* -- Post Navigation -- */
+
+.navigation {
+	margin: 10px 0;
+	padding-bottom: 10px;
+}
+
+.navigation .nav-previous,
+.navigation .left {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.navigation .nav-next,
+.navigation .right {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+/* -- Quotes -- */
+
+blockquote {
+	font: italic 1em/1.6em Georgia, "Times New Roman", Times, serif;
+	color: #333;
+}
+
+/* -- Post/Page Lists -- */
+
+#main ul li {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+textarea#comment {
+	width: 80%;
+}
+
+#main a img {
+	border: none;	
+}
+
+/* -- Tables -- */
+
+table {
+	width:100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #bbb;
+}
+
+th, td {
+	text-align:left;
+	padding: 5px;
+	vertical-align: top;
+}
+
+thead th {
+	border-bottom:2px solid #888;
+	background:#bbb;
+	padding: 5px;
+}
+
+tbody td {
+	border-top:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+	background:#eee;
+}
+
+tbody tr.odd td {
+	background:#fff;
+}
+
