@@ -116,7 +116,7 @@ ul#nav-list li a {
 	font-weight: bold;
 }
 
-ul#nav-list li.page_item a {
+ul#nav-list li.page_item a, ul#nav-list li.menu-item a {
 	border-right: 1px solid #999;
 }
 
