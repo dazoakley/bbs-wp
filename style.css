@@ -14,7 +14,7 @@ Version: 1.0
 /* -- Page Layout -- */
 
 body {
-	background: #fff url(images/logo.jpg) no-repeat left top;
+	background: #fff url(images/logo-v2.jpg) no-repeat left top;
 	color: #000;
 	margin: 0;
 	padding: 0;
@@ -27,12 +27,6 @@ body {
 	padding: 11px 20px 20px;
 	background-color: #fff;
 	border: 1px solid #ccc;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	box-shadow: 0px 0px 3px #999;
-	-webkit-box-shadow: 0px 0px 5px #999;
-	-moz-box-shadow: 0px 0px 3px #999;
 }
 
 #content {
@@ -82,7 +76,7 @@ body {
 }
 
 #site-title {
-	background: transparent url(images/title.png) no-repeat 85% top;
+	background: transparent url(images/title-v2.png) no-repeat 85% top;
 	height: 60px;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -112,7 +106,7 @@ ul#nav-list li a {
 	text-decoration: none;
 	padding-right: 8px;
 	padding-left: 6px;
-	color: #8c0051;
+	color: #ca673c;
 	font-weight: bold;
 }
 
@@ -130,18 +124,18 @@ ul#nav-list li.page_item a, ul#nav-list li.menu-item a {
 /* -- Headings -- */
 
 h2, h3, h4, h5, h6 {
-	font-family: Georgia, Times, Serif;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 
 /* -- Links -- */
 
 a {
 	text-decoration: none;
-	color: #2e8b29;
+	color: #01799e;
 }
 
 a:hover {
-	color: #8c0051;
+	color: #d76543;
 }
 
 h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -192,7 +186,7 @@ h2 .editlink a:hover {
 
 .entry-date abbr {
 	border: 0;
-	color: #2e8b29;
+	color: #01799e;
 }
 
 .entry-author {
@@ -219,7 +213,7 @@ h2 .editlink a:hover {
 	display: block;
 	margin: 2px 0;
 	padding: 0 0 0 20px;
-	background: url('images/tag_green.png') left center no-repeat;
+	background: url('images/tag_blue.png') left center no-repeat;
 }
 
 .entry-tags a {
