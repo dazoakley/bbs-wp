@@ -11,6 +11,8 @@ Version: 1.0
 
 */
 
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700|Open+Sans:400,700);
+
 /* -- Page Layout -- */
 
 body {
@@ -18,7 +20,7 @@ body {
 	color: #000;
 	margin: 0;
 	padding: 0;
-	font: 12px/1.4 Verdana, sans-serif;
+	font: 14px/1.4 'Open Sans', Verdana, sans-serif;
 }
 
 #container {
@@ -95,7 +97,7 @@ div#site-navigation {
 ul#nav-list {
 	padding: 0;
 	margin: 0;
-	font: 12px Verdana, sans-serif;
+	font: 14px 'Open Sans', Verdana, sans-serif;
 }
 
 ul#nav-list li {
@@ -107,7 +109,10 @@ ul#nav-list li a {
 	padding-right: 8px;
 	padding-left: 6px;
 	color: #ca673c;
-	font-weight: bold;
+}
+
+ul#nav-list li a:hover {
+	text-decoration: underline;
 }
 
 ul#nav-list li.page_item a, ul#nav-list li.menu-item a {
@@ -124,7 +129,8 @@ ul#nav-list li.page_item a, ul#nav-list li.menu-item a {
 /* -- Headings -- */
 
 h2, h3, h4, h5, h6 {
-	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-family: 'Droid Serif', Verdana, sans-serif;
+	font-weight: bold;
 }
 
 /* -- Links -- */
@@ -169,10 +175,9 @@ h2 .editlink a:hover {
 /* -- Post Meta -- */
 
 .entry-meta {
-	font-size: 1em;
-	font-family: Georgia, Times, Serif;
 	color: #999;
 	display: block;
+	font: 0.85em 'Droid Serif', Verdana, sans-serif;
 }
 
 .entry-meta div {
