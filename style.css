@@ -177,7 +177,7 @@ h2 .editlink a:hover {
 .entry-meta {
 	color: #999;
 	display: block;
-	font: 0.85em 'Droid Serif', Verdana, sans-serif;
+	font: 0.85em/1.4 'Droid Serif', Verdana, sans-serif;
 }
 
 .entry-meta div {
